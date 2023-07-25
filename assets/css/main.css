@@ -228,7 +228,7 @@ section {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -268,7 +268,7 @@ section {
     left: calc(50% - 36px);
     opacity: 0;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -289,7 +289,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(14, 29, 52, 0.9);
+  background: rgb(14 29 52);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -1289,7 +1289,7 @@ section {
 }
 
 .horizontal-pricing h4 {
-  font-size: 48px;
+  font-size: 35px;
   color: var(--color-primary);
   font-weight: 400;
   font-family: var(--font-primary);
@@ -1711,6 +1711,13 @@ section {
   padding: 120px 0 60px 0;
   color: rgba(255, 255, 255, 0.8);
 }
+hero_p{
+  
+
+  font-size: 23px;
+  color: #0d42ff;
+
+}
 
 .hero h2 {
   margin-bottom: 20px;
@@ -1815,7 +1822,7 @@ section {
 }
 
 .footer .footer-info .logo img {
-  max-height: 40px;
+  max-height: 94px;
   margin-right: 6px;
 }
 
@@ -1912,4 +1919,12 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+.card-text-edt{
+  font-size: 23px;
+}
+.social-links a .twitter{
+  margin-left: 2px;
+  margin-right: 2px;
 }
