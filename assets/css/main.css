@@ -1955,7 +1955,22 @@ hero_p{
 
 .btn-info-edt {
   color: white !important;
-  background: #0d42ff;
+  background: #0d42ff !important;
   padding: 3px 12px;
   margin-right: 3px;
+}
+.btn-1{
+  color: white;
+  font-size: 12px;
+  background-color: #0d42ff;
+  /* border: 3px solid Crimson; */
+  border-radius: 18px;
+  padding: 6px 14px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.btn-info{
+  background: #0d42ff !important;
 }
